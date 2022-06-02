@@ -25,7 +25,7 @@ extension View {
 // MARK: - Color
 
 extension Color {
-    static let primaryBG = Color(UIColor.systemGroupedBackground)
+    static let primaryBG = Color("primaryBG")
     static let secondaryBG = Color(UIColor.secondarySystemGroupedBackground)
     static let primaryLabel = Color(UIColor.label)
 }

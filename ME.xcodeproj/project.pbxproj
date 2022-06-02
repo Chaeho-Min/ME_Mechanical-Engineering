@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5064909928463F9E0037C276 /* MechanicsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064909828463F9E0037C276 /* MechanicsList.swift */; };
+		507334EE284842EF00EFF9BC /* AddDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507334ED284842EF00EFF9BC /* AddDefinition.swift */; };
 		50F01BC92844FB890007752A /* MEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F01BC82844FB890007752A /* MEApp.swift */; };
 		50F01BCB2844FB890007752A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F01BCA2844FB890007752A /* ContentView.swift */; };
 		50F01BCD2844FB8A0007752A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F01BCC2844FB8A0007752A /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		5064909828463F9E0037C276 /* MechanicsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicsList.swift; sourceTree = "<group>"; };
+		507334ED284842EF00EFF9BC /* AddDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDefinition.swift; sourceTree = "<group>"; };
 		50F01BC52844FB890007752A /* ME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F01BC82844FB890007752A /* MEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEApp.swift; sourceTree = "<group>"; };
 		50F01BCA2844FB890007752A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			children = (
 				5064909828463F9E0037C276 /* MechanicsList.swift */,
 				50F01BDC2844FBEA0007752A /* SearchResults.swift */,
+				507334ED284842EF00EFF9BC /* AddDefinition.swift */,
 			);
 			path = ViewParts;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507334EE284842EF00EFF9BC /* AddDefinition.swift in Sources */,
 				5064909928463F9E0037C276 /* MechanicsList.swift in Sources */,
 				50F01BE12844FC0F0007752A /* Extensions.swift in Sources */,
 				50F01BD92844FBC70007752A /* DetailView.swift in Sources */,

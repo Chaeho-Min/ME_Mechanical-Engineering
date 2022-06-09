@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var text: String = ""
+    @State private var isPresented: Bool = false
     let mechanics: [Mechanics] = mechanicsData
     
     var body: some View {
@@ -20,6 +21,18 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("ME")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        isPresented.toggle()
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                    .sheet(isPresented: $isPresented) {
+                        AddDefinition()
+                    }
+                }
+            }
         }
         .searchable(text: $text) {
             if text.isEmpty {

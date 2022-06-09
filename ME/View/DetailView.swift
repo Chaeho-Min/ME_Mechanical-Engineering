@@ -29,6 +29,15 @@ struct DetailView: View {
             }
         }
         .navigationTitle(mechanic.title)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+        }
         .searchable(text: $text, placement: .navigationBarDrawer(displayMode: .always))
         .disableAutocorrection(true)
         .textInputAutocapitalization(.never)

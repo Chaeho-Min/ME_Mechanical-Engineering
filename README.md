@@ -3,7 +3,8 @@
 <img width="800" src="https://user-images.githubusercontent.com/75792767/177327952-dff573b8-1f75-43c7-a2e3-5ae153303766.png">
 
 WWDC21 - Craft search experience in SwiftUI 영상에 대한 발표를 위해 만든 어플.  
-- .searchable을 이용하여 검색 기능 구현.
+- .searchable을 이용하여 검색 기능 구현 완료.
+- Core Data를 이용하여 저장 기능 구현 예정.
 
 <br/>
 

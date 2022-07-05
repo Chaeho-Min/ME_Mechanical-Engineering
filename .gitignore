@@ -36,3 +36,4 @@ Temporary Items
 *.icloud
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
+ME.xcodeproj/project.xcworkspace/xcuserdata/mch.xcuserdatad/
